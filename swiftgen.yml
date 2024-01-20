@@ -1,0 +1,19 @@
+
+xcassets:
+  inputs:
+    - MovieQuiz/Resources/Colors.xcassets
+    - MovieQuiz/Resources/Images.xcassets
+  outputs:
+    - templateName: swift5
+      params:
+        forceProvidesNamespaces: true
+        publicAccess: true
+        enumName: A
+      output: Colors+Generated.swift
+
+fonts:
+  inputs:
+    - MovieQuiz/Resources/Fonts
+  outputs:
+    - templateName: swift5
+      output: Fonts+Generated.swift
